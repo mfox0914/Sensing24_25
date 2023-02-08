@@ -1,29 +1,29 @@
-Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,MPN,PurchasingLink,Digikey PN,Purchase Link,Purchasing Link
-1,"Capacitor, 0.1uF, 50V, 5%, 0805",C_0.1uF,C4 C5,C_0.1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,DK,478-3352-1-ND,https://www.digikey.com/products/en?keywords=478-3352-1-ND,,,
-2,"Capacitor, 10uF, 16V, 10%, 0805",C_10uF_16V,C3,C_10uF_16V,C_0805_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf,DK,1276-2399-1-ND,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485,,,
-3,"Capacitor, 18pF, 10V, 1%, 0603",C_18pF,C1 C2,C_22pF,C_0603_1608Metric,2,https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf,DK,720-1660-1-ND,https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080,,,
-4,LED_0805_Red,LED_0805_Red,D1,LED_0805_Red,LED_0805_Red,1,https://docs.broadcom.com/docs/AV02-0112EN,Avago,HSMC-C170,https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604,516-1428-1-ND,,
-5,CONN HEADER 2 POS 2.54mm,CONN_01x02,J1 J2 J3,CONN_01x02,PinHeader_1x02_P2.54mm_Vertical,3,https://katalog.we-online.de/em/datasheet/6130xx11121.pdf,DK,732-5315-ND,,,,
-6,,Conn_01x07,J4,Conn_01x07,PinHeader_1x07_P2.54mm_Vertical,1,https://www.we-online.com/katalog/datasheet/6130xx11121.pdf,Würth Elektronik,61300711121,https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd,,https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd,
-7,,R_10K,R1,R_10K,R_0805_OEM,1,http://www.bourns.com/data/global/pdfs/CRS.pdf,DK,CRS0805-FX-1002ELFCT-ND,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND,,,
-8,,R_120,R2,R_120,R_0805_OEM,1,https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf,DK,667-ERJ-6ENF1200V,https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d,,,
-9,,R_1K,R3,R_1K,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-rncp.pdf,DK,RNCP0805FTD1K00CT-ND,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND,,,
-10,"Stand-Alone CAN Controller with SPI Interface, SOIC-18",MCP2515-xSO,U2,MCP2515-xSO,SOIC-18W_7.5x11.6mm_P1.27mm,1,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf,,MCP2515T-I/SO,https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681,MCP2515T-I/SODKR-ND,,https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681
-11,"High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8",TJA1051T-E,U1,TJA1051T-E,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.nxp.com/documents/data_sheet/TJA1051.pdf,,,,,,
-12,CRYSTAL 8.0000MHZ 18PF SMD,Crystal_8MHz,Y1,Crystal_8MHz,ABM3-8_5.0x3.2mm_P3.7mm,1,https://abracon.com/Resonators/abm3.pdf,DK,535-10630-1-ND,https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632,,,
-
-
-
-
-
-Component Groups:,12
-Component Count:,16
-Fitted Components:,16
-Number of PCBs:,1
-Total components:,16
-Schematic Version:,
-Schematic Date:,
-PCB Variant:,default
-BoM Date:,10/26/2022 8:09:07 PM
-Schematic Source:,SPItoCAN.kicad_sch
-KiCad Version:,Eeschema (6.0.7)
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,MPN,PurchasingLink,Digikey PN,Purchase Link
+1,"Capacitor, 0.1uF, 50V, 5%, 0805",C_0.1uF,C4 C5,C_0.1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,DK,478-3352-1-ND,https://www.digikey.com/products/en?keywords=478-3352-1-ND,,
+2,"Capacitor, 10uF, 16V, 10%, 0805",C_10uF_16V,C3,C_10uF_16V,C_0805_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf,DK,1276-2399-1-ND,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485,,
+3,"Capacitor, 18pF, 10V, 1%, 0603",C_18pF,C1 C2,C_22pF,C_0603_1608Metric,2,https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf,DK,720-1660-1-ND,https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080,,
+4,LED_0805_Red,LED_0805_Red,D1,LED_0805_Red,LED_0805_Red,1,https://docs.broadcom.com/docs/AV02-0112EN,Avago,HSMC-C170,https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604,516-1428-1-ND,
+5,CONN HEADER 2 POS 2.54mm,CONN_01x02,J1 J2 J3,CONN_01x02,PinHeader_1x02_P2.54mm_Vertical,3,https://katalog.we-online.de/em/datasheet/6130xx11121.pdf,DK,732-5315-ND,,,
+6,,Conn_01x07,J4,Conn_01x07,PinHeader_1x07_P2.54mm_Vertical,1,https://www.we-online.com/katalog/datasheet/6130xx11121.pdf,Würth Elektronik,61300711121,https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd,,
+7,,R_10K,R1,R_10K,R_0805_OEM,1,http://www.bourns.com/data/global/pdfs/CRS.pdf,DK,CRS0805-FX-1002ELFCT-ND,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND,,
+8,,R_120,R2,R_120,R_0805_OEM,1,https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf,DK,667-ERJ-6ENF1200V,https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d,,
+9,,R_1K,R3,R_1K,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-rncp.pdf,DK,RNCP0805FTD1K00CT-ND,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND,,
+10,"Stand-Alone CAN Controller with SPI Interface, SOIC-18",MCP2515-xSO,U2,MCP2515-xSO,SOIC-18W_7.5x11.6mm_P1.27mm,1,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf,,MCP2515T-I/SO,https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681,MCP2515T-I/SODKR-ND,
+11,,TJA1050T,U1,TJA1051T-E,SOIC127P600X175-8N,1,https://www.mouser.com/datasheet/2/302/TJA1050-1127967.pdf,,"TJA1050T/CM,118",https://www.mouser.com/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D,,
+12,CRYSTAL 8.0000MHZ 18PF SMD,Crystal_8MHz,Y1,Crystal_8MHz,ABM3-8_5.0x3.2mm_P3.7mm,1,https://abracon.com/Resonators/abm3.pdf,DK,535-10630-1-ND,https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Component Groups:,12,,,,,,,,,,,
+Component Count:,16,,,,,,,,,,,
+Fitted Components:,16,,,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,,,
+Total components:,16,,,,,,,,,,,
+Schematic Version:,,,,,,,,,,,,
+Schematic Date:,,,,,,,,,,,,
+PCB Variant:,default,,,,,,,,,,,
+BoM Date:,1/25/2023 20:43,,,,,,,,,,,
+Schematic Source:,SPItoCAN.kicad_sch,,,,,,,,,,,
+KiCad Version:,Eeschema (6.0.7),,,,,,,,,,,
