@@ -5,24 +5,42 @@ from digitalio import DigitalInOut, Direction, Pull
 from adafruit_mcp2515.canio import Message, RemoteTransmissionRequest
 from adafruit_mcp2515 import MCP2515 as CAN
 
+# Dictionary to convert between DIP switch positions and CAN IDs. Keys are
+# tuples representing the values of 4 DIP switches.
+#
+# Pins default being pulled high, so a pin is pulled to GND and represented by
+# "false" when the DIP switch is toggled on
+DIP_TO_CAN_ID = {
+    (True, True, True, True)  : "0xRHS000FD",
+    (False, True, True, True) : "0xRHS000FP",
+    (True, False, True, True) : "0xRHS000RD",
+    (True, True, False, True) : "0xRHS000RD"
+}
+
 # Configure DIP Switch inputs
 dip0 = DigitalInOut(board.GP2)
 dip1 = DigitalInOut(board.GP3)
 dip2 = DigitalInOut(board.GP4)
 dip3 = DigitalInOut(board.GP5)
 
-# Set each DIP switch as an input
-dip0.direction = Direction.INPUT
-dip0.direction = Direction.INPUT
-dip0.direction = Direction.INPUT
-dip0.direction = Direction.INPUT
+# Add all DIP switches to a list to make it easier to assign properties to each
+dip_switches = [dip0, dip1, dip2, dip3]
 
-# Use an integrated pull-up resistor to prevent pins from floating; requires
-# pins to be pulled to GND in order to be active
-dip0.pull = Pull.UP
-dip1.pull = Pull.UP
-dip2.pull = Pull.UP
-dip3.pull = Pull.UP
+for switch in dip_switches:
+    # Set each DIP switch as an input
+    switch.direction = Direction.INPUT
+    # Use an integrated pull-up resistor to prevent pins from floating; requires
+    # pins to be pulled to GND in order to be active
+    switch.pull = Pull.UP
+
+# Determine CAN address (board identity) based on DIP switch position
+dip_positions = (dip0.value, dip1.value, dip2.value, dip3.value)
+try:
+    can_id = DIP_TO_CAN_ID[dip_positions]
+    print("Successfully set CAN ID. Current ID is: " + can_id)
+except KeyError:
+    print("Invalid DIP position. Defaulting to CAD address of 0x00000000")
+    can_id = 0x00000000
 
 
 
@@ -36,7 +54,7 @@ can_bus = CAN(spi, cs, loopback=True, silent=True)
 while True:
     with can_bus.listen(timeout=1.0) as listener:
 
-        message = Message(id=0x1234ABCD, data=b"adafruit", extended=True)
+        message = Message(id=can_id, data=b"adafruit", extended=True)
         send_success = can_bus.send(message)
         print("Send success:", send_success)
         message_count = listener.in_waiting()
