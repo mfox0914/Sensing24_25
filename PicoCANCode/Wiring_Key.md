@@ -3,13 +3,13 @@
 
 ## **DIP Switches**
 
-GP2 - DIP0
+GP11 - DIP0
 
-GP3 - DIP1
+GP10 - DIP1
 
-GP4 - DIP2
+GP9 - DIP2
 
-GP5 - DIP3
+GP8 - DIP3
 
 (with all other sides of the DIP switch being connected to GND)
 
