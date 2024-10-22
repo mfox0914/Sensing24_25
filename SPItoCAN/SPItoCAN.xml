@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\baja\Sensing22_23_Carter\SPItoCAN\SPItoCAN.kicad_sch</source>
+    <date>1/25/2023 8:43:17 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SPI to CAN Adapter</title>
+        <company>Olin Baja</company>
+        <rev/>
+        <date/>
+        <source>SPItoCAN.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C_22pF</value>
+      <footprint>footprints:C_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">720-1660-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080</field>
+      </fields>
+      <libsource lib="baja_schematics" part="C_18pF" description="Capacitor, 18pF, 10V, 1%, 0603"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="720-1660-1-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce6fb7bd-59d3-4da3-aa93-3ddb7ce698b5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C_22pF</value>
+      <footprint>footprints:C_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">720-1660-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080</field>
+      </fields>
+      <libsource lib="baja_schematics" part="C_18pF" description="Capacitor, 18pF, 10V, 1%, 0603"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="720-1660-1-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0da3fc95-4973-4d1b-924c-c225cfc29138</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C_10uF_16V</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2399-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485</field>
+      </fields>
+      <libsource lib="baja_schematics" part="C_10uF_16V" description="Capacitor, 10uF, 16V, 10%, 0805"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="1276-2399-1-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9142be4f-2174-4449-ae10-cafba74609ef</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="478-3352-1-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/products/en?keywords=478-3352-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26f6f63c-195c-4ef2-993b-cc3188154615</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="478-3352-1-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/products/en?keywords=478-3352-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>297f0939-cea0-4285-a931-5c07d6d38477</tstamps>
+    </comp>
+    <comp ref="CANH1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>718c5446-94b6-45cd-b408-d2c774430297</tstamps>
+    </comp>
+    <comp ref="CANL1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d38b9442-adf3-49de-b30f-5ed6c37c5392</tstamps>
+    </comp>
+    <comp ref="CS1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc71016a-919a-4bac-9fbf-06b7bceb3b12</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_0805_Red</value>
+      <footprint>Baja:LED_0805_Red</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0112EN</datasheet>
+      <fields>
+        <field name="Digikey PN">516-1428-1-ND</field>
+        <field name="MFN">Avago</field>
+        <field name="MPN">HSMC-C170</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604</field>
+      </fields>
+      <libsource lib="baja_schematics" part="LED_0805_Red" description="LED_0805_Red"/>
+      <property name="MFN" value="Avago"/>
+      <property name="MPN" value="HSMC-C170"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"/>
+      <property name="Digikey PN" value="516-1428-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea6fbff1-95df-460a-a21a-1144c645d5db</tstamps>
+    </comp>
+    <comp ref="GND1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f227c48f-b9b8-447e-9f15-8e82bed94e96</tstamps>
+    </comp>
+    <comp ref="INT1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcfc6604-0dd0-4e9c-afec-08a707618dcd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01x02</value>
+      <footprint>footprints:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="CONN_01x02" description="CONN HEADER 2 POS 2.54mm"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="732-5315-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef4a553b-3488-42b2-9971-99c7f3dc2647</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01x02</value>
+      <footprint>footprints:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="CONN_01x02" description="CONN HEADER 2 POS 2.54mm"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="732-5315-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9081bd3-d879-4e46-8e06-4df0cbaaeefa</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01x02</value>
+      <footprint>footprints:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="CONN_01x02" description="CONN HEADER 2 POS 2.54mm"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="732-5315-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2bd5a6c-c2a2-41f7-b3b0-7a6504c91684</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">Würth Elektronik</field>
+        <field name="MPN">61300711121</field>
+        <field name="Purchase Link">https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd</field>
+        <field name="PurchasingLink">https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd</field>
+      </fields>
+      <libsource lib="baja_schematics" part="Conn_01x07" description=""/>
+      <property name="MFN" value="Würth Elektronik"/>
+      <property name="MPN" value="61300711121"/>
+      <property name="Purchase Link" value="https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>370b5058-cc1a-476b-9fd5-c38b4aef70a5</tstamps>
+    </comp>
+    <comp ref="OSC+1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5d8050d-e0df-4b35-b59d-3f5af8a77d97</tstamps>
+    </comp>
+    <comp ref="OSC-1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be0b7401-f4dc-4587-a565-cea295bf6478</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R_10K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="R_10K" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="CRS0805-FX-1002ELFCT-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54ec5dee-e7c4-4cf6-b023-2a2b4acd4791</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R_120</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">667-ERJ-6ENF1200V</field>
+        <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
+      </fields>
+      <libsource lib="baja_schematics" part="R_120" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="667-ERJ-6ENF1200V"/>
+      <property name="PurchasingLink" value="https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fa33dff-efd2-4698-bc06-65bcdb20bad4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R_1K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD1K00CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
+      </fields>
+      <libsource lib="baja_schematics" part="R_1K" description=""/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="RNCP0805FTD1K00CT-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a609213-770e-40c9-896e-fab289910a2e</tstamps>
+    </comp>
+    <comp ref="RXCAN1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>691467d0-f111-4a96-971f-0e902ff1c49d</tstamps>
+    </comp>
+    <comp ref="SCK1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5190e415-284c-4fa5-b3fe-d162fa8e5ef3</tstamps>
+    </comp>
+    <comp ref="SI1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd583825-1f20-445a-bc8f-403d821b271e</tstamps>
+    </comp>
+    <comp ref="SO1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>237da314-53c2-4767-91a8-88ae05e539f4</tstamps>
+    </comp>
+    <comp ref="TXCAN1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27324c46-f843-44aa-9710-dc39e2d02221</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TJA1051T-E</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/302/TJA1050-1127967.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">NXP USA</field>
+        <field name="MPN">TJA1050T/CM,118</field>
+        <field name="PurchasingLink">https://www.mouser.com/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="baja_schematics" part="TJA1050T" description=""/>
+      <property name="MANUFACTURER" value="NXP USA"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="MPN" value="TJA1050T/CM,118"/>
+      <property name="PurchasingLink" value="https://www.mouser.com/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4bd11dc-0bb5-42f2-95bc-67a25de0a36f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP2515-xSO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">MCP2515T-I/SODKR-ND</field>
+        <field name="MPN">MCP2515T-I/SO</field>
+        <field name="Purchasing Link">https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681</field>
+        <field name="PurchasingLink">https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681</field>
+      </fields>
+      <libsource lib="baja_schematics" part="MCP2515-xSO" description="Stand-Alone CAN Controller with SPI Interface, SOIC-18"/>
+      <property name="MPN" value="MCP2515T-I/SO"/>
+      <property name="Digikey PN" value="MCP2515T-I/SODKR-ND"/>
+      <property name="Purchasing Link" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eff0c317-9bc9-4bba-9f71-407f207320cc</tstamps>
+    </comp>
+    <comp ref="VCC1">
+      <value>Test_Point_SMD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="baja_schematics" part="Test_Point_SMD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>344585bd-4485-43c1-a80f-c871ce52c06c</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_8MHz</value>
+      <footprint>footprints:ABM3-8_5.0x3.2mm_P3.7mm</footprint>
+      <datasheet>https://abracon.com/Resonators/abm3.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">535-10630-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632</field>
+      </fields>
+      <libsource lib="baja_schematics" part="Crystal_8MHz" description="CRYSTAL 8.0000MHZ 18PF SMD"/>
+      <property name="MFN" value="DK"/>
+      <property name="MPN" value="535-10630-1-ND"/>
+      <property name="PurchasingLink" value="https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SPItoCAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f9c0fff-b30e-4b70-b353-29976841a9cd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="baja_schematics" part="CONN_01x02">
+      <description>CONN HEADER 2 POS 2.54mm</description>
+      <docs>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x02</field>
+        <field name="Footprint">footprints:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="C_0.1uF">
+      <description>Capacitor, 0.1uF, 50V, 5%, 0805</description>
+      <docs>http://datasheets.avx.com/X7RDielectric.pdf</docs>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.1uF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://datasheets.avx.com/X7RDielectric.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="C_10uF_16V">
+      <description>Capacitor, 10uF, 16V, 10%, 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf</docs>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10uF_16V</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2399-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="C_18pF">
+      <description>Capacitor, 18pF, 10V, 1%, 0603</description>
+      <docs>https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf</docs>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_18pF</field>
+        <field name="Footprint">footprints:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">720-1660-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0603A180FXQCW1BC/720-1660-1-ND/8324080</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="Conn_01x07">
+      <docs>https://www.we-online.com/katalog/datasheet/6130xx11121.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/6130xx11121.pdf</field>
+        <field name="MFN">Würth Elektronik</field>
+        <field name="MPN">61300711121</field>
+        <field name="PurchasingLink">https://www.digikey.com/en/products/detail/61300711121/732-5320-ND/4846837?curr=usd</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="Crystal_8MHz">
+      <description>CRYSTAL 8.0000MHZ 18PF SMD</description>
+      <docs>https://abracon.com/Resonators/abm3.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_8MHz</field>
+        <field name="Footprint">footprints:ABM3-8_5.0x3.2mm_P3.7mm</field>
+        <field name="Datasheet">https://abracon.com/Resonators/abm3.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">535-10630-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/abracon-llc/ABM3-8.000MHZ-D2Y-T/535-10630-1-ND/2344632</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="LED_0805_Red">
+      <description>LED_0805_Red</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0112EN</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0805_Red</field>
+        <field name="Footprint">Baja:LED_0805_Red</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-0112EN</field>
+        <field name="Digikey PN">516-1428-1-ND</field>
+        <field name="MFN">Avago</field>
+        <field name="MPN">HSMC-C170</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CATHODE" type="passive"/>
+        <pin num="2" name="ANODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="MCP2515-xSO">
+      <description>Stand-Alone CAN Controller with SPI Interface, SOIC-18</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2515-xSO</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf</field>
+        <field name="MPN">MCP2515T-I/SO</field>
+        <field name="PurchasingLink">https://www.digikey.com/en/products/detail/microchip-technology/MCP2515T-I-SO/593681</field>
+        <field name="Digikey PN">MCP2515T-I/SODKR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT/SOF" type="output"/>
+        <pin num="4" name="~{TX0RTS}" type="input"/>
+        <pin num="5" name="~{TX1RTS}" type="input"/>
+        <pin num="6" name="~{TX2RTS}" type="input"/>
+        <pin num="7" name="OSC2" type="output"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="~{RX1BF}" type="output"/>
+        <pin num="11" name="~{RX0BF}" type="output"/>
+        <pin num="12" name="~{INT}" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="~{CS}" type="input"/>
+        <pin num="17" name="~{RESET}" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="R_10K">
+      <docs>http://www.bourns.com/data/global/pdfs/CRS.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.bourns.com/data/global/pdfs/CRS.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="R_120">
+      <docs>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_120</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">667-ERJ-6ENF1200V</field>
+        <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="R_1K">
+      <docs>https://www.seielect.com/Catalog/SEI-rncp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD1K00CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="TJA1050T">
+      <docs>https://www.mouser.com/datasheet/2/302/TJA1050-1127967.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TJA1050T</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/302/TJA1050-1127967.pdf</field>
+        <field name="MANUFACTURER">NXP USA</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="MPN">TJA1050T/CM,118</field>
+        <field name="PurchasingLink">https://www.mouser.com/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VREF" type="output"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="baja_schematics" part="Test_Point_SMD">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Test_Point_SMD</field>
+        <field name="Footprint">footprints:Test_Point_SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="baja_schematics">
+      <uri>C:\baja\Baja_Preferred_Parts_fork\/schematic/formula.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CANH">
+      <node ref="CANH1" pin="1" pintype="input"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/CANL">
+      <node ref="CANL1" pin="1" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/CS">
+      <node ref="CS1" pin="1" pintype="input"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="4" name="/INT">
+      <node ref="INT1" pin="1" pintype="input"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="5" name="/OSC+">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="OSC+1" pin="1" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="OSC1" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/OSC-">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="OSC-1" pin="1" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="OSC2" pintype="output"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/RXCAN">
+      <node ref="RXCAN1" pin="1" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="RXD" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="RXCAN" pintype="input"/>
+    </net>
+    <net code="8" name="/SCK">
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="SCK1" pin="1" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="9" name="/SI">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="SI1" pin="1" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="10" name="/SO">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SO1" pin="1" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="SO" pintype="output"/>
+    </net>
+    <net code="11" name="/TXCAN">
+      <node ref="TXCAN1" pin="1" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="TXD" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="TXCAN" pintype="output"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="CATHODE" pintype="passive"/>
+      <node ref="GND1" pin="1" pintype="input"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="S" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="ANODE" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="16" name="VCC">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="VDD" pintype="power_in"/>
+      <node ref="VCC1" pin="1" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="VREF" pintype="output"/>
+    </net>
+    <net code="18" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="CLKOUT/SOF" pintype="output"/>
+    </net>
+    <net code="19" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="~{TX0RTS}" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="~{TX1RTS}" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="~{TX2RTS}" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="~{RX1BF}" pintype="output"/>
+    </net>
+    <net code="23" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="~{RX0BF}" pintype="output"/>
+    </net>
+  </nets>
+</export>

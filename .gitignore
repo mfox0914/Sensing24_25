@@ -1,0 +1,12 @@
+/RideHeightSensor/RideHeightSensor-backups
+/SPItoCAN/SPItoCAN-backups
+/PicoCANCode/.vscode
+/PicoCANCode/lib
+
+# Non-production gerber builds
+/SPItoCAN/gerber/test1
+/SPItoCAN/gerber/test2
+/SPItoCAN/gerber/test23
+
+# Temp files
+*.tmp
